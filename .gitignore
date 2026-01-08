@@ -1,0 +1,17 @@
+# Compiled binaries
+*.exe
+*.out
+
+# Object files
+*.o
+
+# Input / Output files
+input.txt
+output.txt
+
+# VS Code & ps files
+.vscode/
+*.ps1
+
+# Temporary files
+*.log
