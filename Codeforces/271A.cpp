@@ -1,8 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-bool allDistinct(int y)
-{
+bool allDistinct(int y) {
     bool seen[10] = {};
     while (y) {
         int d = y % 10;
@@ -14,10 +13,10 @@ bool allDistinct(int y)
     return true;
 }
 
-int main()
-{
+int main() {
     int year;
     cin >> year;
-    while (!allDistinct(++year)) { };
+    while (!allDistinct(++year)) {
+    };
     cout << year;
 }

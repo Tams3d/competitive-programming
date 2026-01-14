@@ -1,15 +1,14 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-int main()
-{
+int main() {
     ios::sync_with_stdio(false);
     cin.tie(nullptr);
 
     string s;
     cin >> s;
 
-    int freq[26] = { 0 };
+    int freq[26] = {0};
     int distinct = 0;
     for (char c : s)
         freq[c - 'a']++;

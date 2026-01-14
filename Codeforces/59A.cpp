@@ -2,9 +2,7 @@
 #include <cctype>
 using namespace std;
 
-int main()
-{
-
+int main() {
     ios::sync_with_stdio(false);
     cin.tie(nullptr);
 
@@ -14,7 +12,7 @@ int main()
     for (char c : s)
         if (islower(c))
             ++lwr;
-    for (char& c : s)
+    for (char &c : s)
         if (lwr >= (s.size() - lwr))
             c = tolower(c);
         else

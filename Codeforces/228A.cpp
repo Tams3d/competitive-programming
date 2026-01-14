@@ -2,16 +2,16 @@
 using namespace std;
 
 int main() {
-  ios::sync_with_stdio(false);
-  cin.tie(nullptr);
+    ios::sync_with_stdio(false);
+    cin.tie(nullptr);
 
-  set<long long> colors;
-  for (int i = 0; i < 4; i++) {
-    long long x;
-    cin >> x;
-    colors.insert(x);
-  }
+    set<long long> colors;
+    for (int i = 0; i < 4; i++) {
+        long long x;
+        cin >> x;
+        colors.insert(x);
+    }
 
-  cout << 4 - colors.size();
-  return 0;
+    cout << 4 - colors.size();
+    return 0;
 }
